@@ -6,7 +6,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 function filterByInitial (list, character) {
     const newArr = []
-    
+    for (let i=0; i<list.length; i++){
+        if(list[i][0].toUpperCase() === character.toUpperCase())
+            newArr.push(list[i][0])
+    }
 }
 
 
