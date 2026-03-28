@@ -8,12 +8,14 @@ function filterByInitial (list, character) {
     const newArr = []
     for (let i=0; i<list.length; i++){
         if(list[i][0].toUpperCase() === character.toUpperCase())
-            newArr.push(list[i][0])
+            newArr.push(list[i])
     }
+    retutn newArr
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const newArr = filterByInitial(names, "A")
 
 
 
