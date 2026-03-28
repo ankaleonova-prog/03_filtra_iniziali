@@ -16,6 +16,7 @@ function filterByInitial (list, character) {
 
 // Invoca la funzione qui e stampa il risultato in console
 const newArr = filterByInitial(names, "A")
+console.log(newArr)
 
 
 
