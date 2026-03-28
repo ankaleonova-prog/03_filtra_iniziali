@@ -4,7 +4,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function filterByInitial (list, character);
+function filterByInitial (list, character) {
+    const newArr = []
+    
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
